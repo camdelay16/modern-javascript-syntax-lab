@@ -68,12 +68,28 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 // Use propertyName as a dynamic key in userProfile, assigning a relevant value.
 
 // Your code here
-propertyName = 'age'
+// propertyName = 'age'
 
-const userProfile = {
-name: 'Cameron',
-[propertyName]: 33,
+// const userProfile = {
+// name: 'Cameron',
+// [propertyName]: 33,
+// }
+
+// console.log(userProfile)
+
+// Exercise 7: Import and Export
+
+// Exercise 8: Default parameters
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// Your code here
+function sentence(noun, adjective) {
+    return 'The ' + noun + ' is ' + adjective + '.'
 }
-
-console.log(userProfile)
-
+console.log(sentence("cat", "white"))
