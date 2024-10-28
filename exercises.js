@@ -88,8 +88,24 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
 // The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
 
+// // Your code here
+// function sentence(noun, adjective) {
+//     return 'The ' + noun + ' is ' + adjective + '.'
+// }
+// console.log(sentence("cat", "white"))
+
+
+// Exercise 9: Ternary operator
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
 // Your code here
-function sentence(noun, adjective) {
-    return 'The ' + noun + ' is ' + adjective + '.'
-}
-console.log(sentence("cat", "white"))
+let pizzaTaste = pizza === 'tasty' ? 'yum' : 'yuck'
+console.log(pizzaTaste)
