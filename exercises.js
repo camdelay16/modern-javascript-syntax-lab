@@ -47,17 +47,33 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 // Exercise 5: Applying the spread operator on objects
 // Duplicate the following object and spread its values into a new variable `myCar`.
 
-const car = {
-    make: 'Audi',
-    model: 'q5',
-  };
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+//   };
   
-  // Change the `model` property of `myCar` to 'q7'. Log both objects.
+//   // Change the `model` property of `myCar` to 'q7'. Log both objects.
   
-  // Your code here
+//   // Your code here
 
-  const myCar = { ...car }
-  myCar.model = 'q7'
-  console.log(car)
-  console.log(myCar)
+//   const myCar = { ...car }
+//   myCar.model = 'q7'
+//   console.log(car)
+//   console.log(myCar)
   
+
+// Exercise 6: Dynamic keys in objects
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+// Your code here
+propertyName = 'age'
+
+const userProfile = {
+name: 'Cameron',
+[propertyName]: 33,
+}
+
+console.log(userProfile)
+
